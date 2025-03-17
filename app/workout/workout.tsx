@@ -47,8 +47,8 @@ export default function WorkoutScreen() {
   };
 
   const saveWorkout = async () => {
-    if (!newWorkout.name || !newWorkout.youtubeLink) {
-      Alert.alert('Error', 'Please fill in all fields');
+    if (!newWorkout.name) {
+      Alert.alert('Error', 'Please fill in required fields');
       return;
     }
 
@@ -180,7 +180,6 @@ export default function WorkoutScreen() {
           width="100%"
           height="200"
           src={`https://www.youtube.com/embed/${videoId}`}
-          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />

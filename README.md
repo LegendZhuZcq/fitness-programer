@@ -2,6 +2,8 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+This is a workout planning application that allow you to program different workout every day. In the future, we will also integrate with AI to allow auto generate program based on your request.
+
 ## Get started
 
 1. Install dependencies
